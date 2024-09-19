@@ -1,0 +1,107 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/12/2017 08:19
+  	*/
+
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-style: normal;
+	}
+
+	.flaticon-monitor:before {
+	    content: "\f100";
+	}
+
+	.flaticon-settings:before {
+	    content: "\f101";
+	}
+
+	.flaticon-cog:before {
+	    content: "\f102";
+	}
+
+	.flaticon-big-cogwheel:before {
+	    content: "\f103";
+	}
+
+	.flaticon-favorite-1:before {
+	    content: "\f104";
+	}
+
+	.flaticon-arrows-1:before {
+	    content: "\f105";
+	}
+
+	.flaticon-arrows:before {
+	    content: "\f106";
+	}
+
+	.flaticon-favorite:before {
+	    content: "\f107";
+	}
+
+	.flaticon-multimedia:before {
+	    content: "\f108";
+	}
+
+	.flaticon-note:before {
+	    content: "\f109";
+	}
+
+	.flaticon-placeholder:before {
+	    content: "\f10a";
+	}
+
+	.flaticon-open-envelope:before {
+	    content: "\f10b";
+	}
+
+	.flaticon-technology:before {
+	    content: "\f10c";
+	}
+
+	.flaticon-review:before {
+	    content: "\f10d";
+	}
+
+	.flaticon-menu-button:before {
+	    content: "\f10e";
+	}
+
+	.flaticon-interface:before {
+	    content: "\f10f";
+	}
+
+	.flaticon-ruler:before {
+	    content: "\f110";
+	}
+
+	.flaticon-programming-code-signs:before {
+	    content: "\f111";
+	}
+
+	.flaticon-computer:before {
+	    content: "\f112";
+	}
+
+	.flaticon-painter-palette:before {
+	    content: "\f113";
+	}

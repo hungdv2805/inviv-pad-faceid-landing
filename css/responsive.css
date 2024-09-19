@@ -1,0 +1,286 @@
+/* Sfinance - HTML Template */
+
+@media only screen and (max-width: 1300px) {
+    .page-wrapper {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-slider h2 {
+        font-size: 34px;
+    }
+    .main-slider .text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .dropdown-btn {
+        display: none;
+    }
+    .lg-left-minus-60 {
+        position: relative;
+        left: -60px;
+    }
+    .lg-right-minus-60 {
+        position: relative;
+        right: -60px;
+    }
+    .mockup-six img {
+        max-width: none;
+        position: relative;
+        left: -56px;
+    }
+    .mockup-seven {
+        position: relative;
+        right: -65px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .flex-box-one {
+        display: block;
+    }
+    .navbar-toggler {
+        outline: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .main-menu .navbar-brand {
+        margin: 12px 0;
+    }
+    .main-menu .outer-box .btn-style-two {
+        padding: 5px 24px;
+    }
+    .main-menu .outer-box {
+        top: 13px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 10px;
+        margin-left: -28px;
+        /* border: 1px solid #fff; */
+    }
+    .navbar-toggler-icon {
+        position: relative;
+    }
+    .navbar-toggler-icon:before {
+        position: absolute;
+        content: "\f10e";
+        font-size: 36px;
+        font-family: flaticon;
+        color: #fff;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    .main-menu .navbar-nav {
+        display: block;
+        margin-right: 0;
+       // background-color: #979797;
+        background-image: -webkit-linear-gradient(0deg, rgb(12, 186, 121) 0%, rgb(33, 202, 215) 100%);
+    }
+    .main-menu .navbar-nav>li>a {
+        padding: 8px 12px;
+        border-bottom: 1px solid #ffffff4f;
+    }
+    .main-header .nav-outer .socail-icon-area {
+        right: 54px;
+        z-index: 99;
+    }
+    .main-header .header-lower .search-box-outer .dropdown-menu {
+        left: inherit;
+    }
+    .main-header .outer-box {
+        position: absolute;
+        right: 12px;
+        z-index: 99;
+        top: -2px;
+    }
+    .dropdown-btn {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        width: 50px;
+        height: 42px;
+        border-left: 1px solid #ffffff36;
+        text-align: center;
+        font-size: 16px;
+        line-height: 44px;
+        color: #ffffff;
+        cursor: pointer;
+        z-index: 5;
+    }
+    .main-menu .navbar-nav>li>ul {
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        width: 100%;
+        background: #fff;
+        transition: none;
+    }
+    .main-menu .navbar-nav>li>ul>li:hover>a {
+        background: #fff;
+        color: #222;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        background: #000000;
+        width: 30px;
+        height: 2px;
+        border-radius: 1px;
+    }
+    .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 6px;
+    }
+    .main-header .main-menu {
+        padding-top: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    .main-header .sticky-header .main-menu {
+        display: none;
+    }
+    .main-menu .collapse {
+        max-height: 400px;
+        overflow: auto;
+        float: none;
+        width: 100%;
+        border: none;
+        margin: 0px;
+        -ms-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .main-menu .collapse.in,
+    .main-menu .collapsing {
+        padding: 0px 0px 0px;
+        border: none;
+        margin: 0px 0px 15px;
+        -ms-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .main-menu .navbar-header {
+        position: relative;
+        float: none;
+        display: block;
+        text-align: right;
+        width: 100%;
+        padding: 45px 0px 20px;
+        right: 0px;
+        z-index: 12;
+    }
+    .main-menu .navbar-header .navbar-toggle {
+        background: transparent;
+        z-index: 9;
+        cursor: pointer;
+        left: 0;
+        top: 23px;
+        position: absolute;
+        margin: 0 20px;
+    }
+    .mockup-one .image-box {
+        margin-top: 0;
+    }
+    .mockup-three {
+        position: relative;
+        right: 0;
+        bottom: -60px;
+    }
+    .mockup-four {
+        position: relative;
+        right: 0;
+        text-align: center;
+        top: -20px;
+    }
+    .mockup-five {
+        position: relative;
+        top: 0;
+    }
+    .services-block-three {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-slider {
+        margin-top: 0px !important;
+    }
+    .main-slider h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .main-slider .dark-heading {
+        font-size: 32px;
+    }
+    .main-slider h1 {
+        font-size: 32px;
+    }
+    .main-slider h4 {
+        font-size: 28px;
+    }
+    .main-slider .text {
+        font-size: 14px;
+    }
+    .about-us .link-btn .theme-btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .main-slider h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .map-section .google-map {
+        height: 800px;
+    }
+    .main-slider .text {
+        font-size: 13px;
+    }
+    .main-slider .dark-heading {
+        font-size: 24px;
+    }
+    .main-slider .text.dark-text {
+        font-size: 13px;
+    }
+    .slider-content .content-text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main-menu .outer-box .btn-style-two {
+        display: none;
+    }
+    .navbar-toggler {
+        right: 0;
+        left: inherit;
+        margin-left: inherit;
+    }
+    .footer-top .flex-box li {
+        width: 100%;
+    }
+}
