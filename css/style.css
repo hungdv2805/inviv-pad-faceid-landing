@@ -3599,7 +3599,7 @@ img {
 }
 .info-box-one li a{
     color: #000;
-    transition: color .3s ease
+    transition: all .3s ease
 }
 .info-box-one li a:hover{opacity: 0.65;}
 
